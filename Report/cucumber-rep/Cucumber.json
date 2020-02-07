@@ -1,0 +1,177 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-07T08:24:03.496Z",
+        "line": 22,
+        "name": "Purchasing the product via Etsy India Pvt Ltd.",
+        "description": "",
+        "id": "etsy-product-purchage;purchasing-the-product-via-etsy-india-pvt-ltd.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50648912000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am at the Etsy Login Page,I entered my User Name \"ravi.shekhar082@gmail.com\" Password \"IVAR092\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ravi.shekhar082@gmail.com\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"IVAR092\"",
+                  "offset": 88
+                }
+              ],
+              "location": "StepDef.i_am_at_the_Etsy_Login_Page_I_entered_my_User_Name_Password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click the Login btn",
+            "match": {
+              "location": "StepDef.click_the_Login_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I entered the product name \"iPhoneCase\" in the search box.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iPhoneCase\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDef.i_entered_the_product_name_in_the_search_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click the search button.",
+            "match": {
+              "location": "StepDef.click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select the product and add it into my cart.",
+            "match": {
+              "location": "StepDef.i_select_the_product_and_add_it_into_my_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I confirm my product and proceed to checkout page.",
+            "match": {
+              "location": "StepDef.i_confirm_my_product_and_proceed_to_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 806300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter my Delivery Address \"Ravi\",\"Delhi\",\"Rohini\",\"110009\",\"Delhi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ravi\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Delhi\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Rohini\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"110009\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"Delhi\"",
+                  "offset": 61
+                }
+              ],
+              "location": "StepDef.i_enter_my_Delivery_Address(String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1808647000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I move to payment page and enter my credit card details \"Ravi\",\"1254785654\",\"5847\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ravi\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"1254785654\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"5847\"",
+                  "offset": 76
+                }
+              ],
+              "location": "StepDef.i_move_to_payment_page_and_enter_my_credit_card_details(String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Etsy product purchage",
+    "description": "As a registered visitor of Etsy,i want to search product.\nAdd the product to my cart then i go to purchage page\nand make the payment by using my credit card,and make \nthe conformation of my purchage.",
+    "id": "etsy-product-purchage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/EtsyIndia.feature",
+    "tags": []
+  }
+]

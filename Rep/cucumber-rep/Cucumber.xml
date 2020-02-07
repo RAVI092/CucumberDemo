@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="52.591113">
+    <testcase classname="Etsy product purchage" name="Purchasing the product via Etsy India Pvt Ltd." time="52.591113">
+        <system-out>
+            <![CDATA[Given I am at the Etsy Login Page,I entered my User Name "ravi.shekhar082@gmail.com" Password "IVAR092".passed
+And Click the Login btn.....................................................passed
+And I entered the product name "iPhoneCase" in the search box...............passed
+And click the search button.................................................passed
+When I select the product and add it into my cart...........................passed
+And I confirm my product and proceed to checkout page.......................passed
+Then I enter my Delivery Address "Ravi","Delhi","Rohini","110009","Delhi"...passed
+And I move to payment page and enter my credit card details "Ravi","1254785654","5847"..passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
